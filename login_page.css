@@ -1,0 +1,100 @@
+   body {
+      min-height: 100vh;
+      margin: 0;
+      background: linear-gradient(135deg, #ec4899, #8b5cf6, #fb923c);
+      background-size: 300% 300%;
+      animation: gradientMove 8s ease infinite;
+      position: relative;
+      overflow: hidden;
+    }
+    #login_background {
+        background-color:rgb(24, 19, 10);
+      width: 500px;
+      height: 430px;
+      margin-left: 30%;
+      margin-top: 100px;
+        position: relative;
+        color: #f3f3f3;
+        transition: all 0.3s ease;  /* smooth animation */
+       box-shadow: 0 8px 25px rgba(216, 16, 16, 0.15),
+              0 15px 40px rgba(0, 0, 0, 0.1);
+              border-radius: 20px;
+        
+
+    } 
+    #login_background:hover {
+  transform: translateY(-10px);  
+  box-shadow: 0 12px 30px rgb(5, 224, 23),
+              0 20px 50px rgb(233, 6, 6);
+}
+    #emails{
+      width: 390px;
+      height: 42px;
+      margin-left: 40px;
+      margin-top: 30px;
+     border-color: antiquewhite;
+     border-radius: 5px;
+      text-align: center;
+    
+    }
+    #verifypassword{
+      width: 390px;
+      text-align: center;
+       margin-left: 40px;
+    
+      margin-top: 30px;
+     height: 42px;
+     border-color: antiquewhite;
+     border-radius: 5px;
+      text-align: center;
+    }
+    #loginbtns{
+      margin-top: 30px;
+      width: 78%;
+      height: 40px;
+      background-color: rgb(27, 218, 27);
+       border-radius: 5px;
+       border: none;
+       margin-left: 42px;
+    }
+    #loginbtns {
+      cursor: pointer;
+      
+    }
+    #login_background span{
+      cursor: pointer;
+    }
+   #paragraph{
+    margin-top: 20px;
+   }
+   #anger{
+    color: rgb(243, 6, 192);
+    text-decoration: none;
+   }
+   #result{
+    text-align: center;
+    margin-left: 44%;
+    width: 250px;
+   margin-top: 20px;
+   
+    background-color: black;
+   border-radius: 5px;
+    color: white;
+    
+   }
+    /* }
+    #superman {
+   max-height: 260px; 
+   width: auto;
+   position: absolute;
+   top: 590px;
+   left: 5%;
+   transform: translateX(-50%);
+   animation: fly 25s infinite alternate ease-in-out;
+}
+
+@keyframes fly {
+   0% { transform: translateX(-50%) translateY(); }
+   50% { transform: translateX(-50%) translateY(-910px); }
+   100% { transform: translateX(-50%) translateY(0); }
+} */
