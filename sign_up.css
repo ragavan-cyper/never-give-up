@@ -1,0 +1,88 @@
+ body {
+      min-height: 100vh;
+      margin: 0;
+      background: linear-gradient(135deg, #ec4899, #8b5cf6, #fb923c);
+      background-size: 300% 300%;
+      animation: gradientMove 8s ease infinite;
+      position: relative;
+      overflow: hidden;
+    }
+    #signup{
+        background-color: #18130A;
+        width: 520px;
+        height: 470px;
+        margin-top: 70px;
+        font-size: larger;
+        border-radius: 20px;
+        color: white;
+        margin-left: 35%;
+    }
+    #h5{
+     margin-left: 45%;
+    margin-top: 50px;
+    color: burlywood;
+    }
+    .name{
+          margin-top: 20px;
+        width: 400px;
+       height: 35px;
+        border-color: #ee70af;
+        /* border: none; */
+        border-radius: 5px;
+         text-align: center;
+         margin-left: 51px;
+    }
+    .email{
+         margin-top: 20px;
+        width: 400px;
+       height: 35px;
+        border-color: #ee70af;
+        /* border: none; */
+        border-radius: 5px;
+         text-align: center;
+          margin-left: 51px;
+    }
+    .pass{
+            margin-top: 20px;
+        width: 400px;
+        height: 35px;
+         border-color: #ee70af;
+        /* border: none; */
+        border-radius: 5px;
+         text-align: center;
+          margin-left: 51px;
+    }
+    .confirm{
+          margin-top: 20px;
+        width: 400px;
+        height: 35px;
+         border-color: #ee70af;
+        /* border: none; */
+        border-radius: 5px;
+        text-align: center;
+         margin-left: 51px;
+    }
+    #loginbtn{
+          margin-top: 40px;
+          width: 400px;
+          height: 40px;
+          border-radius: 6px;
+          background-color: aqua;
+           border: none;
+            margin-left: 51px;
+    }
+    #signup:hover{
+           transform: translateY(-19px);   /* little lift */
+box-shadow: 0 12px 30px rgb(5, 224, 23),
+              0 20px 50px rgb(233, 6, 6);
+    }
+    #result{
+     text-align: center;
+    margin-left: 45%;
+    width: 250px;
+   margin-top: 20px;
+   
+    background-color: black;
+   border-radius: 5px;
+    color: white;
+    }
